@@ -34,7 +34,7 @@ And its output:
 $ node main.js
 {
   sortedArray: [1, 2, 3, 4, 5, 6],
-  iterations: 15,
+  iterations: 12,
   swaps: 9
 }
 $
