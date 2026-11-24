@@ -9,10 +9,11 @@ function insertionSortAnalyzer(arr, comparator) {
       if (comparator(sortedArray[j - 1], sortedArray[j]) > 0) {
         [sortedArray[j - 1], sortedArray[j]] = [sortedArray[j], sortedArray[j - 1]];
         swaps++
+      } else {
+        break
       }
     }
   }
-
   return { sortedArray, iterations, swaps }
 }
 
